@@ -87,6 +87,10 @@ main .line{
     margin: 30px 0px;
 }
 
+main h2{
+    padding: 10px;
+}
+
 footer{
     padding: 30px 20px 60px;
     background-color: #006F57;
