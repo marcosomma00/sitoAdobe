@@ -89,6 +89,8 @@ main .line{
 
 footer{
     padding: 30px 20px 60px;
+    background-color: #006F57;
+    color: #FAF8F8;
     /* a tre cifre è top | left+right | bottom */
 }
 footer .colonna{
