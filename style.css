@@ -87,6 +87,21 @@ main .line{
     margin: 30px 0px;
 }
 
+footer{
+    padding: 30px 20px 60px;
+    /* a tre cifre è top | left+right | bottom */
+}
+footer .colonna{
+    padding: 10px 0px;
+}
+footer .colonna a{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .colonna a:hover{ /*  */
+    color: #009eee;
+}
+
 /* CSS PER PAGINA STAFF  */
 
 /* Griglia con Flexbox */
