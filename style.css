@@ -125,6 +125,7 @@ footer .colonna a:hover{ /*  */
     position: relative;
     display: flex;
     align-items: flex-end;
+    border-radius: 10px;
     overflow: hidden;/* nascondi elemento se esce da contenitore */    
 }
 .pos1 img{
