@@ -7,6 +7,25 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'BrutGrotesque';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BrutGrotesque/.eot?'); /* IE9 Compat Modes */
+    src: local(''),
+        url('BrutGrotesque/BrutGrotesque-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
+        url('BrutGrotesque/BrutGrotesque-Regular.otf') format('woff2'), /* Super Modern Browsers */
+        url('BrutGrotesque/BrutGrotesque-Regular.otf') format('woff'), /* Modern Browsers */
+        url('BrutGrotesque/BrutGrotesque-Regular.otf') format('truetype'), /* Safari, Android, iOS */
+        url('BrutGrotesque/BrutGrotesque-Regular.otf') format('svg'); /* Legacy iOS */
+    }
+
+body{
+    font-family: 'BrutGrotesque', Helvetica, Arial, Sans-Serif;
+    font-size: 19px;
+    color: #2d2d2d;
+    background-color: #BB010B;
+}
 img{
     max-width: 100%;
     height: auto;
