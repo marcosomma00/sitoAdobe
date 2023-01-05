@@ -26,6 +26,11 @@ body{
     color: #2d2d2d;
     background-color: #BB010B;
 }
+
+h1,h2,h3,h4,h5,nav a{
+    font-family: 'BrutGrotesque', Helvetica, sans-serif;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -33,6 +38,10 @@ img{
 
 header{
     padding: 30px 20px;
+}
+
+header h1{
+    margin: 0px 20px 0px 0px;
 }
 
 .wide{
