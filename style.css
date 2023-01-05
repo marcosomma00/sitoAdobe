@@ -39,3 +39,15 @@ header{
     background-color: #FAF8F8;
     color: #707070;
 }
+
+nav li{
+    display: inline-block; /* display inline ma con gestione del margin verticale */
+    margin-left: 20px;
+    list-style: none; /* toglie i pallini dati da ul e li */
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none; /* azzero stili di default */
+    color: #707070;
+    font-size: 30px;
+}
