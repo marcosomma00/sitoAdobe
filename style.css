@@ -6,3 +6,8 @@
     font-size: 100%;
     box-sizing: border-box;
 }
+
+.wide{
+    background-color: #2d2d2d;
+    color: #fff;
+}
