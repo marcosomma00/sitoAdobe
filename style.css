@@ -64,8 +64,9 @@ nav .active{
     .grid_3{
         display: grid;    
     }
-    header{grid-template-columns: 1fr 1fr;}
-    nav{justify-self: end;}
+    header{grid-template-columns: 200px 1fr;}
+    nav{justify-self:start;
+        align-self:center;}
     .grid_3{
         grid-template-columns: repeat(3, 1fr);
         /* è la stessa cosa di scrivere:
