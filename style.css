@@ -56,3 +56,33 @@ nav a:hover,
 nav .active{
     color:#BB010B;
 }
+
+@media(min-width:768px){ 
+    header, 
+    footer,
+    .grid_1,
+    .grid_3{
+        display: grid;    
+    }
+    header{grid-template-columns: 1fr 1fr;}
+    nav{justify-self: end;}
+    .grid_3{
+        grid-template-columns: repeat(3, 1fr);
+        /* è la stessa cosa di scrivere:
+            grid-template-columns: 1fr 1fr 1fr; */
+    }
+    /* impostazione per pagina about mono colonna */
+    .grid_1{justify-content: center;}
+    .grid_1 article {width: 60vw;}
+    .grid_1 img{width: 30vw;}
+    footer{
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center; /* allineare verticalmente le cose */
+    }
+    footer h4{
+        text-align: center;
+    }
+    .flexgrid img{
+        width: 300px;
+    }
+}
