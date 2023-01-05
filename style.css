@@ -164,7 +164,9 @@ main .fa-chevron-down{
     .grid_3{
         display: grid;    
     }
-    header{grid-template-columns: 200px 1fr;}
+    header{grid-template-columns: 200px 1fr 200px;}
+    div{justify-self: end;
+        align-self: center;}
     nav{justify-self:start;
         align-self:center;}
     .grid_3{
