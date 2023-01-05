@@ -92,7 +92,7 @@ main h2{
 }
 
 footer{
-    padding: 30px 20px 60px;
+    padding: 10px 20px 10px;
     margin-top: 30px;
     background-color: #006F57;
     color: #FAF8F8;
@@ -170,6 +170,8 @@ main .fa-chevron-down{
         align-self: center;}
     nav{justify-self:start;
         align-self:center;}
+    img{height: 250px;
+        overflow: hidden;}
     .grid_3{
         grid-template-columns: repeat(3, 1fr);
         /* è la stessa cosa di scrivere:
