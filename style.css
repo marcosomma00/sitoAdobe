@@ -66,6 +66,63 @@ nav .active{
     color:#BB010B;
 }
 
+main p{
+    text-align: left;
+    margin-top: 10px;
+    /* font-family: Helvetica; */
+}
+main .fas{
+    font-size: 50px;
+}
+
+/* CSS PER PAGINA STAFF  */
+
+/* Griglia con Flexbox */
+.flexgrid{
+    display: flex;
+    /* display: -webkit-flex;
+    display: -ms-flexbox;
+    prefissi per vecchi browser */
+    flex-wrap:wrap ;/* voglio che ogni box card di gandalf possa andare a capo se non c'è spazio */
+    justify-content: center;
+    gap: 20px;
+}
+
+.pos1{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;/* nascondi elemento se esce da contenitore */    
+}
+.pos1 img{
+    transition: all 0.8s ease;
+}
+.pos1 img:hover{
+    transform: scale(1.1);
+}
+.pos2{
+    position: absolute;
+    height: 100px;
+    bottom: -50px;
+    left: 0px;
+    /* posizionamenti assoluti: top bottom left right */
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    color: gray;
+    width: 100%;
+    z-index: 2; /* ordinamento livelli, più è alto più è vicino a noi */
+    transition: all 0.9s linear;
+}
+.pos2:hover{
+    color: white;
+    bottom: 0px;
+}
+main .fa-chevron-down{
+    font-size: 20px;
+}
+
+/* FINE CSS PAGINA STAFF */
+
 @media(min-width:768px){ 
     header, 
     footer,
