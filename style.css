@@ -7,6 +7,15 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    padding: 30px 20px;
+}
+
 .wide{
     background-color: #FAF8F8;
     color: #707070;
