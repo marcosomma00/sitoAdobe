@@ -172,11 +172,11 @@ main .fa-chevron-down{
     .grid_1 article {width: 60vw;}
     .grid_1 img{width: 30vw;}
     footer{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         align-items: center; /* allineare verticalmente le cose */
     }
-    footer h4{
-        text-align: center;
+    footer .logo_footer{
+        text-align: end;
     }
     .flexgrid img{
         width: 300px;
