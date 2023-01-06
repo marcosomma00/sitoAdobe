@@ -117,6 +117,16 @@ main h2{
     background-size: cover;
     margin-top: 30px;
     background: url(img/annie-spratt-cS4fiNSK2c4-unsplash\ -\ dimensioni\ grandi.jpeg) no-repeat center center ;/* non ripete l'immagine finchè c'è spazio e la tiene al centro sia verticale che orizzontale */
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* allinea orizzontale al centro */
+    align-items: center;
+}
+
+#banner1 div p{
+    background-color: #23856de5;
+    color: #FAF8F8;
+    margin: 20%;
 }
 
 footer{
@@ -202,6 +212,7 @@ main .fa-chevron-down{
         height: 300px;
         width: 300px;
         }
+    
     .grid_3{
         grid-template-columns: repeat(3, 1fr);
         /* è la stessa cosa di scrivere:
