@@ -111,6 +111,14 @@ main h2{
     background-color: #23856de5;
 }
 
+#banner1{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    margin-top: 30px;
+    background: url(img/istockphoto-1352121696-170667a.jpg) no-repeat center center ;/* non ripete l'immagine finchè c'è spazio e la tiene al centro sia verticale che orizzontale */
+}
+
 footer{
     padding: 10px 20px 10px;
     margin-top: 30px;
