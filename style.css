@@ -106,7 +106,7 @@ main .colonna_img{ /* stessa cosa per la classe colonna */
 main p{
     text-align: left;
     margin: 30px;
-    padding: 60px;
+    padding: 60px 35px;
     font-size:larger;
 }
 
@@ -117,7 +117,6 @@ main h3{
     padding: 10px 20px 10px;
     margin: 20px 60px 20px;
 }
-
 
 #banner{
     width: 100%;
