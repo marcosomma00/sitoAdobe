@@ -93,13 +93,14 @@ main h2{
 
 main .colonna{ /* stessa cosa per la classe colonna */
     padding: 20px;
+    margin-left: 10px;
     text-align: center;
     background-color: #23856de5;
     color: #FAF8F8;
 }
 
-main .colonna_img{ /* stessa cosa per la classe colonna */
-    padding: 20px;
+main .colonna_img{
+    margin: 70px 50px 50px;
     text-align: center;
 }
 
