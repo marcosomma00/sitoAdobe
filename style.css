@@ -216,7 +216,7 @@ footer .colonna a:hover{ /*  */
     color: #BB010B;
     width: 100%;
     z-index: 2; /* ordinamento livelli, più è alto più è vicino a noi */
-    transition: all 0.9s linear;
+    transition: all 0.7s linear;
 }
 .pos2:hover{
     color: #BB010B;
