@@ -94,6 +94,7 @@ main h2{
 main .colonna{ /* stessa cosa per la classe colonna */
     padding: 20px;
     margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     background-color: #23856de5;
     color: #FAF8F8;
