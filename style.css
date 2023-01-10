@@ -275,7 +275,10 @@ main .fa-chevron-down{
         justify-content: end;}
     footer{
         grid-template-columns: repeat(2, 1fr);
-        align-items: center; /* allineare verticalmente le cose */
+        align-items: center;
+        position: absolute;
+        width: 100vw;
+        /* allineare verticalmente le cose */
     }
     footer .logo_footer{
         text-align: end;
