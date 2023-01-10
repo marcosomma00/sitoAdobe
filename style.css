@@ -246,7 +246,6 @@ main .fa-chevron-down{
     font-size: 20px;
 }
 
-/* FINE CSS PAGINA STAFF */
 
 @media(min-width:768px){ 
     header, 
@@ -278,7 +277,7 @@ main .fa-chevron-down{
         align-items: center;
         position:absolute;
         width: 100vw;
-        bottom: 0;
+        align-self: flex-end;
         /* allineare verticalmente le cose */
     }
     footer .logo_footer{
