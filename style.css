@@ -99,6 +99,13 @@ main .colonna{ /* stessa cosa per la classe colonna */
     background-color: #23856de5;
     color: #FAF8F8;
 }
+main .colonna_prod{ /* stessa cosa per la classe colonna */
+    padding: 20px;
+    margin: 10px 10px;
+    text-align: center;
+    background-color: #23856de5;
+    color: #FAF8F8;
+}
 
 main .colonna_img{
     margin: 70px 50px 50px;
