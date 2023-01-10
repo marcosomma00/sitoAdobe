@@ -276,8 +276,9 @@ main .fa-chevron-down{
     footer{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-        position: absolute;
+        position:absolute;
         width: 100vw;
+        bottom: 0;
         /* allineare verticalmente le cose */
     }
     footer .logo_footer{
