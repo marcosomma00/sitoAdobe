@@ -127,6 +127,10 @@ main article p{
     font-size:larger;
 }
 
+#prod{
+    text-align: center;
+}
+
 main h3{
     background-color: #BB010B;
     text-align: left;
