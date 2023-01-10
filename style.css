@@ -277,7 +277,6 @@ main .fa-chevron-down{
         align-items: center;
         position:absolute;
         width: 100vw;
-        align-self: flex-end;
         /* allineare verticalmente le cose */
     }
     footer .logo_footer{
