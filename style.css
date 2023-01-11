@@ -72,7 +72,6 @@ main{
 main p{
     text-align: left;
     margin-top: 10px;
-    /* font-family: Helvetica; */
 }
 main .fas{
     font-size: 50px;
@@ -195,11 +194,9 @@ footer .colonna a{
     color: #fff;
     text-decoration: underline;
 }
-footer .colonna a:hover{ /*  */
+footer .colonna a:hover{ 
     color: #009eee;
 }
-
-/* CSS PER PAGINA STAFF  */
 
 /* Griglia con Flexbox */
 .flexgrid{
@@ -207,7 +204,7 @@ footer .colonna a:hover{ /*  */
     /* display: -webkit-flex;
     display: -ms-flexbox;
     prefissi per vecchi browser */
-    flex-wrap:wrap ;/* voglio che ogni box card di gandalf possa andare a capo se non c'è spazio */
+    flex-wrap:wrap ;/* voglio che ogni box card possa andare a capo se non c'è spazio */
     justify-content: center;
     gap: 20px;
 }
